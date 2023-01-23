@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/position_circle_green.css">
+    <link rel="stylesheet" href="/styles/position_circle_pink.css">
+    <link rel="stylesheet" href="/styles/position_circle_blue.css">
+    <link rel="stylesheet" href="/styles/position_circle_orange.css">
+    <title>Ábaco</title>
+</head>
+<body>
+    <div class="global_container">
+        <div class="space_secundary_container">
+            <div class="sistem_number">
+                <span class="mil">0</span>
+                <span class="cen">0</span>
+                <span class="dez">0</span>
+                <span class="uni">0</span>
+            </div>
+            <div class="div_input">
+                <input 
+                    type="text" 
+                    class="input_input" 
+                    placeholder="DIgite um número"
+                    maxlength="4"
+                    value=""
+                >
+            </div>
+            <div class="div_reset">
+                <button class="btn_reset">Reset</button>
+            </div>
+
+            <div class="container_abaco">
+                <div class="content_aste">
+                    <div class="aste" id="thousand_unit" >
+                        <div class="circle green green_one">mil</div>
+                        <div class="circle green green_two">mil</div>
+                        <div class="circle green green_tree">mil</div>
+                        <div class="circle green green_four">mil</div>
+                        <div class="circle green green_five">mil</div>
+                        <div class="circle green green_six">mil</div>
+                        <div class="circle green green_serven">mil</div>
+                        <div class="circle green green_eight">mil</div>
+                        <div class="circle green green_nine">mil</div>
+                    </div>
+                    <div class="boot" >Uni. milhar</div>
+                </div>
+
+                <div class="content_aste">
+                    <div class="aste" id="hundred" >
+                        <div class="circle pink  pink_one">centena</div>
+                        <div class="circle pink  pink_two">centena</div>
+                        <div class="circle pink  pink_tree">centena</div>
+                        <div class="circle pink  pink_four">centena</div>
+                        <div class="circle pink  pink_five">centena</div>
+                        <div class="circle pink  pink_six">centena</div>
+                        <div class="circle pink  pink_serven">centena</div>
+                        <div class="circle pink  pink_eight">centena</div>
+                        <div class="circle pink  pink_nine">centena</div>
+                    </div>
+                    <div class="boot" >Centena</div>
+                </div>
+
+                <div class="content_aste">
+                    <div class="aste" id="ten">
+                        <div class="circle blue blue_one">dezena</div>
+                        <div class="circle blue blue_two">dezena</div>
+                        <div class="circle blue blue_tree">dezena</div>
+                        <div class="circle blue blue_four">dezena</div>
+                        <div class="circle blue blue_five">dezena</div>
+                        <div class="circle blue blue_six">dezena</div>
+                        <div class="circle blue blue_serven">dezena</div>
+                        <div class="circle blue blue_eight">dezena</div>
+                        <div class="circle blue blue_nine">dezena</div>
+                    </div>
+                    <div class="boot" >Dezena</div>
+                </div>
+
+                <div class="content_aste">
+                    <div class="aste" id="unity">
+                        <div class="circle orange orange_one">unidade</div>
+                        <div class="circle orange orange_two">unidade</div>
+                        <div class="circle orange orange_tree">unidade</div>
+                        <div class="circle orange orange_four">unidade</div>
+                        <div class="circle orange orange_five">unidade</div>
+                        <div class="circle orange orange_six">unidade</div>
+                        <div class="circle orange orange_serven">unidade</div>
+                        <div class="circle orange orange_eight">unidade</div>
+                        <div class="circle orange orange_nine">unidade</div>
+                    </div>
+                    <div class="boot" >Unidade</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="scripts/scripts_logic_green.js"  type="module"></script>
+    <script src="scripts/scripts_logic_pink.js"   type="module"></script>
+    <script src="scripts/scripts_logic_blue.js"   type="module"></script>
+    <script src="scripts/scripts_logic_orange.js" type="module"></script>
+    <script src="scripts/script.js" type="module"></script>
+</body>
+</html>

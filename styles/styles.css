@@ -1,0 +1,133 @@
+.space_secundary_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 10px;
+  width: 1000px;
+  height: 100%;
+
+  background-color: rgb(77, 29, 49);
+  color: rgb(255, 255, 255);
+}
+.sistem_number {
+  display: flex;
+  gap: 5px;
+
+  font-size: 30px;
+}
+.container_abaco {
+  display: flex;
+
+  width: 70%;
+  height: 50%;
+
+  margin: 35% 0 0 4%;
+  border-radius: 12px;
+
+  border: 10px solid rgb(119, 117, 14);
+}
+.div_input input {
+  all: unset;
+  text-align: center;
+  height: 25px;
+
+  border-bottom: 1px solid gray;
+}
+.div_reset {
+  margin-top: 8px;
+}
+.div_reset button {
+  all: unset;
+  text-align: center;
+
+  width: 100px;
+  height: 25px;
+
+  border: 1px solid rgb(58, 105, 107);
+  border-radius: 10px;
+
+  background-color: cadetblue;
+
+  cursor: pointer;
+}
+.div_reset button:hover {
+  background-color: rgb(118, 194, 197);
+}
+.content_aste {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 25%;
+  height: 100%;
+}
+.boot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 98%;
+  height: 10%;
+
+  background-color: rgb(131, 61, 29);
+  color: white;
+  border-radius: 12px 12px 0 0;
+}
+.aste {
+  position: relative;
+  height: 100%;
+  width: 20%;
+
+  font-size: 12px;
+  background-color: rgb(119, 117, 14);
+  color: white;
+}
+.circle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80px;
+  height: 10%;
+
+  left: -68%;
+
+  border-radius: 90px;
+  border: 1px solid rgba(0, 0, 0, 0.144);
+
+  cursor: pointer;
+}
+.circle:hover {
+  border-color: rgb(252, 253, 255);
+}
+/*  */
+.one {
+  bottom: 0%;
+}
+.two {
+  bottom: 10.2%;
+}
+.tree {
+  bottom: 20.3%;
+}
+.four {
+  bottom: 30.4%;
+}
+.five {
+  bottom: 40.6%;
+}
+.six {
+  bottom: 50.8%;
+}
+.serven {
+  bottom: 61.1%;
+}
+.eight {
+  bottom: 71.3%;
+}
+.nine {
+  bottom: 81.5%;
+}

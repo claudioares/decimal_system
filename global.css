@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.global_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  background-color: rgb(14, 14, 13);
+  color: aliceblue;
+}
+
+.green {
+  background-color: rgb(3, 58, 40);
+}
+.pink {
+  background-color: rgb(131, 36, 64);
+}
+.blue {
+  background-color: rgb(16, 39, 83);
+}
+.orange {
+  background-color: rgb(143, 82, 12);
+}

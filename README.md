@@ -1,5 +1,5 @@
 # decimal_system
-## Aplicação para ensino do sistema decimal.
+## Um projeto web para ensino do sistema decimal.
 
 ### Estilizado com folhas de estilo css
 
